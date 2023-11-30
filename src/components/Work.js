@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Img1 from "../assets/portfolio-img1.png";
+import Img1 from "../assets/musicplayer.png";
 import Img2 from "../assets/ml_brain_tumor.png";
 import Img3 from "../assets/portfolio-img3.png";
 
@@ -32,8 +32,7 @@ const Work = () => {
             {/* image */}
             <motion.div
               onClick={() => {
-                window.open("https://github.com/Khaliq-786/Minder");
-                window.open("https://github.com/Khaliq-786/Minder-backend/");
+                window.open("https://github.com/samarthsarkar/VibeSync");
               }}
               variants={fadeIn("right", 0.2)}
               initial="hidden"
@@ -51,12 +50,12 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-32 transition-all duration-500 z-50">
-                <span className="text-gradient text-3xl">Minder</span>
+                <span className="text-gradient text-3xl">VibeSync</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-lg text-white">
-                  MNNIT’s very own dating-cum-social media platform
+                  Music Player synced to spotify, API-data retrieval demonstration
                 </span>
               </div>
             </motion.div>
