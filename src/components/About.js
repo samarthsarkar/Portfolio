@@ -35,16 +35,16 @@ const About = () => {
               {/* I'm a coder, developer, ML enthusiast ! */}
             </h3>
             <p className="mb-6">
-              I am a dedicated and enthusiastic B.Tech final Year, majoring in Computer Science and Engineering, with a profound interest in the field of machine learning. 
-              I am passionate about leveraging technology to solve complex problems and have a strong academic foundation in computer science and I am an expert in Data Structures and Algorithms with over 400 solved problems across multiple paltforms.
-              Additionally, I am an avid reader, finding great enjoyment in expanding my knowledge through books. 
-              This combination of technical expertise and a love for learning has shaped my commitment to academic and personal growth.
+              B.Tech final Year majoring in Computer Science and Engineering, with a profound interest in the field of machine learning. 
+              I am passionate about leveraging technology to solve complex real-world problems.
+              Additionally, I am an avid reader-writer, and have great interest in Filmography. 
+              This powerful combination of software skills and creativity enables me to think out-of-the-box.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={400} duration={1} /> : null}
+                  {inView ? <CountUp start={0} end={500} duration={4} /> : null}
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -54,7 +54,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={10} duration={7} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projetcs <br />
@@ -63,7 +63,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={10} duration={2} /> : null}+
+                  {inView ? <CountUp start={0} end={50} duration={5} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Current <br />
