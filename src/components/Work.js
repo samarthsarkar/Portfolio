@@ -9,9 +9,9 @@ const Work = () => {
   return (
     <section className="section" id="work">
       <div className="container mt-52 mx-auto">
+      <h2>tester text</h2>
         <div className="flex flex-col lg:flex-row gap-x-10">
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
-            <h2>tester text</h2>
             <div>
               <h2 className="h2 leading-tight text-accent">
                 My Latest <br />
