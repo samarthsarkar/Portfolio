@@ -32,7 +32,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a coder, developer, ML enthusiast !
+              {/* I'm a coder, developer, ML enthusiast ! */}
             </h3>
             <p className="mb-6">
               I am a dedicated and enthusiastic B.Tech final Year, majoring in Computer Science and Engineering, with a profound interest in the field of machine learning. 

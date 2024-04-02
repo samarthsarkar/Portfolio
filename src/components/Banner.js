@@ -38,9 +38,9 @@ const Banner = () => {
                 sequence={[
                   "Data Scientist",
                   2000,
-                  "ML Engineer",
+                  "An ML Engineer",
                   2000,
-                  "AI Researcher",
+                  "An AI Researcher",
                   2000,
                 ]}
                 speed={50}
