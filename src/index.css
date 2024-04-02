@@ -40,6 +40,13 @@
   border-radius: 100%;
 }
 
+.genp {
+  background-image: linear-gradient(to right, #fa0c14 5%, #0bf6f2 20%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
