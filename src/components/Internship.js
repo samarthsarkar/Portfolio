@@ -130,4 +130,4 @@ const Internship = () => {
   );
 };
 
-export default Work;
+export default Internship;
