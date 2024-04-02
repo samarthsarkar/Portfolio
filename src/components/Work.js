@@ -7,14 +7,12 @@ import Img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
   return (
-    <section className="section" id="internship">
+    <section className="section" id="work">
       <div>
-        <h2 className="h2 leading-tight text-accent">
+        <h2>
           Internships
         </h2>
       </div>
-    </section>
-    <section className="section" id="work">
       <div className="container mt-52 mx-auto">
       {/* inside project class */}
         <div className="flex flex-col lg:flex-row gap-x-10">
