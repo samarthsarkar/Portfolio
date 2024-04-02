@@ -1,7 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
-import Img1 from "../assets/genpact-logo.png";
+// import { motion } from "framer-motion";
+// import { fadeIn } from "../variants";
+// import Img1 from "../assets/genpact-logo.png";
 const Internship = () => {
   return (
     <section className="section" id="internship">
@@ -12,23 +12,14 @@ const Internship = () => {
             {/* left aligned */}
             <div>
               <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Projects.
+                Internships
               </h2>
               <p className="max-w-sm mb-10">
-                A glimpse into my work and experience in the field of Machine Learning, C++ programming and Web Development.
+                A glimpse into my professional career.
               </p>
-              <button
-                onClick={() => {
-                  window.open("https://github.com/samarthsarkar?tab=repositories");
-                }}
-                className="btn btn-sm"
-              >
-                View all projects
-              </button>
             </div>
             {/* image */}
-            <motion.div
+            {/* <motion.div
               onClick={() => {
                 window.open("https://github.com/samarthsarkar/VibeSync");
               }}
@@ -39,24 +30,24 @@ const Internship = () => {
               className="group relative overflow-hidden border-2 border-white/50 rounded-xl hover:cursor-pointer"
             >
               {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
-              <img
+              {/* <img
                 className="group-hover:scale-125 transition-all duration-500"
                 src={Img1}
                 alt=""
               />
               {/* pretitle */}
-              <div className="absolute -bottom-full left-1/2 group-hover:bottom-32 transition-all duration-500 z-50">
+              {/* <div className="absolute -bottom-full left-1/2 group-hover:bottom-32 transition-all duration-500 z-50">
                 <span className="text-gradient text-3xl">VibeSync</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
+              {/* <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-lg text-white">
                   Music Player synced to spotify, API-data retrieval demonstration
                 </span>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>
