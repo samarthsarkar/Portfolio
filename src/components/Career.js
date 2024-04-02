@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/genlogo.jpg";
-const Internship = () => {
+const Career = () => {
   return (
     <section className="section" id="internship">
       <div className="container mt-52 mx-auto">
@@ -12,10 +12,10 @@ const Internship = () => {
             {/* left aligned */}
             <div>
               <h2 className="h2 mt-52 text-accent">
-                Internships
+                Professional Career
               </h2>
               <p className="max-w-sm mb-10">
-                A glimpse into my professional career.
+                A glimpse into my professional growth.
               </p>
             </div>
             {/* image */}
@@ -55,4 +55,4 @@ const Internship = () => {
   );
 };
 
-export default Internship;
+export default Career;

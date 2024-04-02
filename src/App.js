@@ -8,7 +8,7 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Academics from "./components/Academics";
-import Internship from "./components/Internship";
+import Career from "./components/Career";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <Academics />
       <Services />
       <Work />
-      <Internship />
+      <Career />
       <Contact />
     </div>
   );
