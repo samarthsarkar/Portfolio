@@ -4,11 +4,11 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Academics from "./components/Academics";
 import Career from "./components/Career";
+import Skillset from "./components/Skillset";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <Nav />
       <About />
       <Academics />
-      <Services />
+      <Skillset />
       <Work />
       <Career />
       <Contact />

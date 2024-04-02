@@ -3,39 +3,39 @@ import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
-const services = [
+const Skills= [
   {
-    name: "Data Structures and Algorithms",
-    description: "Solved 400+ problems on Leetcode and Code Studio.",
+    name: "DSA and Core CSE Fundamentals",
+    description: "Solved 400+ problems on Leetcode and Code Studio. Strong grasp of Computer Networking, Operating Systems, Object Oriented Programming and Database Management.",
     additional: "View Profiles",
     link: "https://www.codingninjas.com/studio/profile/DzrkZammy",
   },
   {
-    name: "Full Stack Web developer",
+    name: "Full-Stack Developement",
     description:
       "Expert Full-StackWeb Developer specializing in MERN stack and Tailwind CSS with over 10 projects build",
     additional: "View Github",
     link: "https://github.com/samarthsarkar",
   },
   {
-    name: "Core CSE Subjects",
+    name: "Machine Learning and Artificial Intelligence",
     description:
-      "Strong grasp of Computer Networking, Operating Systems, Object Oriented Programming and Database Management.",
+      "Expert level at building and training machine learning models, Data engineering and Data analysis",
     additional: "",
     link: "",
   },
   {
-    name: "AWS Cloud Computing",
+    name: "Cloud Computing and Database Systems",
     description:
-      "Fundamental knowledge of cloud computing, AWS applications, virtualization concepts, IaaS, PaaS, SaaS, and essential AWS services such as EC2, etc.",
+      "Proficient at cloud computing, AWS (EC2) and Big Data systems such as Hue/Hive (Hadoop)",
     additional: "",
     link: "",
   },
 ];
 
-const Services = () => {
+const Skillset = () => {
   return (
-    <section className="section mt-40 mb-48" id="services">
+    <section className="section mt-40 mb-48" id="skillset">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row ">
           {/* text & image */}
@@ -62,8 +62,8 @@ const Services = () => {
           >
             {/* service list */}
             <div className="flex-1">
-              {services.map((service, index) => {
-                const { name, description, additional, link } = service;
+              {Skills.map((Skills, index) => {
+                const { name, description, additional, link } = Skills;
                 return (
                   <div
                     className="border-b border-white/20 mb-[38px] flex"
@@ -120,4 +120,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skillset;
