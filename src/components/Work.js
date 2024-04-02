@@ -15,11 +15,11 @@ const Work = () => {
             {/* left aligned */}
             <div>
               <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Projects.
+                Projects and <br />
+                Internships
               </h2>
               <p className="max-w-sm mb-10">
-                A glimpse into my work and experience in the field of Machine Learning, C++ programming and Web Development.
+                A glimpse into my projects in the field of Machine Learning and Web Development
               </p>
               <button
                 onClick={() => {
@@ -93,7 +93,7 @@ const Work = () => {
               </div>
             </motion.div>
             {/* image */}
-            <motion.div
+            {/* <motion.div
               onClick={() => {
                 window.open("https://github.com/Khaliq-786/RAY");
               }}
@@ -104,25 +104,25 @@ const Work = () => {
               className="group relative overflow-hidden border-2 border-white/50 rounded-xl mt-7 hover:cursor-pointer"
             >
               {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
-              <img
+              {/* <img
                 className="group-hover:scale-125 transition-all duration-500"
                 src={Img3}
                 alt=""
               />
               {/* pretitle */}
-              <div className="absolute -bottom-full left-1/2 group-hover:bottom-40 transition-all duration-500 z-50">
+              {/* <div className="absolute -bottom-full left-1/2 group-hover:bottom-40 transition-all duration-500 z-50">
                 <span className="text-gradient text-3xl">RAY</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
+              {/* <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-lg text-white">
                   A line and wall follwoing bot built using arduino board and
                   various sensors.
                 </span>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>
