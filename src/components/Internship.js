@@ -7,7 +7,7 @@ import Img3 from "../assets/portfolio-img3.png";
 
 const Internship = () => {
   return (
-    <section className="section" id="work">
+    <section className="section" id="internship">
       <div className="container mt-52 mx-auto">
       {/* inside project class */}
         <div className="flex flex-col lg:flex-row gap-x-10">
