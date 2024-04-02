@@ -6,7 +6,7 @@ const academics = [
   {
     college: "Motilal Nehru National Institute of Technology, Allahabad",
     qualification: "B.tech in Computer Science",
-    year: "2020 - 2024",
+    year: "2024",
     cpi: "7.51 (Till 7th Semester)",
   },
   {
