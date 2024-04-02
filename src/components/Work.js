@@ -15,11 +15,10 @@ const Work = () => {
             {/* left aligned */}
             <div>
               <h2 className="h2 leading-tight text-accent">
-                Projects and <br />
-                Internships
+                Projects
               </h2>
               <p className="max-w-sm mb-10">
-                A glimpse into my projects in the field of Machine Learning and Web Development
+                A glimpse into my projects in the field of Machine Learning and Web Development.
               </p>
               <button
                 onClick={() => {
