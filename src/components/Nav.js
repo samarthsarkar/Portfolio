@@ -41,7 +41,7 @@ const Nav = () => {
             <BiSolidGraduation />
           </Link>
           <Link
-            to="services"
+            to="skillset"
             activeClass="active"
             smooth={true}
             spy={true}
