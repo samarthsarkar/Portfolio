@@ -1,6 +1,6 @@
 import React from "react";
 import { BiHomeAlt, BiUser, BiSolidGraduation } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { BsClipboardData, BsBriefcase, BsChatSquare, BsBuildings } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Nav = () => {
@@ -57,6 +57,15 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
+          </Link>
+          <Link
+            to="internship"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <BsBuildings />
           </Link>
           <Link
             to="contact"
