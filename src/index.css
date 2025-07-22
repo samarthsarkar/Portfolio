@@ -40,6 +40,13 @@
   border-radius: 100%;
 }
 
+.itr {
+  background-image: linear-gradient(to right, #fa0c14 5%, #f6df0b 8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .genp {
   background-image: linear-gradient(to right, #fa0c14 5%, #0bf6f2 20%);
   -webkit-background-clip: text;
